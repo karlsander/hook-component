@@ -29,7 +29,7 @@ npm install --save hook-component
 ## Usage
 
 ```tsx
-import * as React from "react";
+import React, { useState } from "react";
 
 import Hook from "hook-component";
 
@@ -47,7 +47,7 @@ class CounterExample extends React.Component {
 ```
 
 ```tsx
-import * as React from "react";
+import React, { useEffect } from "react";
 
 import { createHookComponent } from "hook-component";
 
