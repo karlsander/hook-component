@@ -5,16 +5,36 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.4",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link-http": "^1.5.14",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "hook-component": "file:..",
+    "keyboardjs": "^2.5.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
+    "react-apollo-hooks": "^0.4.5",
     "react-dom": "^16.4.1",
-    "react-scripts": "^1.1.4",
-    "hook-component": "file:.."
+    "react-scripts": "^2.1.8",
+    "react-use": "^8.1.2",
+    "rebound": "^0.1.0",
+    "typescript": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
