@@ -1,6 +1,6 @@
 {
   "name": "hook-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use react hooks in class components with render props",
   "author": "karlsander",
   "license": "MIT",

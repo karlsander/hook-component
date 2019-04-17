@@ -5,7 +5,7 @@ export default function Hook({
 }: {
   hook: Function;
   args?: any[];
-  children?: ((...args: any[]) => JSX.Element) | JSX.Element;
+  children?: ((...args: any[]) => React.ReactNode) | React.ReactNode;
 }) {
   const hookReturn = hook(...(args ? args : []));
   if (typeof children === "function") {
@@ -25,7 +25,7 @@ export function createHookComponent<T extends (...args: any[]) => any>(
     children
   }: {
     args: Parameters<T>;
-    children?: ((args: ReturnType<T>) => JSX.Element) | JSX.Element;
+    children?: ((args: ReturnType<T>) => React.ReactNode) | React.ReactNode;
   }) {
     const hookReturn = hook(...args);
     if (typeof children === "function") {

@@ -76,4 +76,5 @@ MIT © [karlsander](https://github.com/karlsander)
 
 ## Changelog
 
-- 0.1 Hello World
+- 0.1.1 Use React.ReactNode instead of JSX.Element type
+- 0.1.0 Hello World
